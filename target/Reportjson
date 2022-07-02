@@ -1,0 +1,147 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-25T07:21:36.311Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2394100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.napf.stepdefinition.Hook.be()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.napf.stepdefinition.Hook.bef()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify the sorting of table in user inbox",
+        "description": "",
+        "id": "story-name-should-be-mentioned;verify-the-sorting-of-table-in-user-inbox",
+        "after": [
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.napf.stepdefinition.Hook.aft()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.napf.stepdefinition.Hook.af()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the chrome browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 24
+                }
+              ],
+              "location": "org.napf.stepdefinition.HompageDefinition.open_the_chrome_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch the NAPF url \"http://napf.datamatics.com:8888/napf-ui/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://napf.datamatics.com:8888/napf-ui/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "org.napf.stepdefinition.HompageDefinition.launch_the_napf_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "after loading the napf navigate to userinbox",
+            "match": {
+              "location": "org.napf.stepdefinition.HompageDefinition.after_loading_the_napf_navigate_to_userinbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on the table header..",
+            "match": {
+              "location": "org.napf.stepdefinition.HompageDefinition.click_on_the_table_header()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Check on clicking, the date is sorted in ascending order.",
+            "match": {
+              "location": "org.napf.stepdefinition.HompageDefinition.check_on_clicking_the_date_is_sorted_in_ascending_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "story name should be mentioned",
+    "description": "",
+    "id": "story-name-should-be-mentioned",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feture/HomePageFeature.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
