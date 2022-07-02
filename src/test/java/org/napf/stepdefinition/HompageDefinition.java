@@ -1,26 +1,22 @@
 package org.napf.stepdefinition;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import org.napf.locators.HompageLocator;
-import org.openqa.selenium.WebElement;
 import org.swiggy.baseclass.Seleniumday1;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import junit.framework.Assert;
 
 public class HompageDefinition extends Seleniumday1{
 	
 	
 	@Given("Open the chrome browser {string}")
 	public void open_the_chrome_browser(String browserName) {
-		//Seleniumday1.browserlaunch(browserName);
+
+		System.out.println("launching the browser");
+
+		System.out.println("launching the browser");
+
 	}
 
 	@Given("Launch the NAPF url {string}")

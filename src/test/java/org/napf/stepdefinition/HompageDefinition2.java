@@ -1,19 +1,11 @@
 package org.napf.stepdefinition;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import org.napf.locators.HompageLocator;
-import org.openqa.selenium.WebElement;
 import org.swiggy.baseclass.Seleniumday1;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import junit.framework.Assert;
 
 public class HompageDefinition2 extends Seleniumday1{
 	
