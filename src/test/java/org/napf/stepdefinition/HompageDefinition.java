@@ -20,7 +20,7 @@ public class HompageDefinition extends Seleniumday1{
 	
 	@Given("Open the chrome browser {string}")
 	public void open_the_chrome_browser(String browserName) {
-		//Seleniumday1.browserlaunch(browserName);
+		System.out.println("launching the browser");
 	}
 
 	@Given("Launch the NAPF url {string}")
